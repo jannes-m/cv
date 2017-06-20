@@ -1,0 +1,95 @@
+phd:
+    - start: 2016
+      end: present
+      name: Patrick Schratz
+      title: Spatial prediction of tree desease using topography, climate and multi- and hyperspectral images in Northern Spain
+      note: Informal co-advisor
+master's level:
+  - start: 2017
+    end: present
+    name: Jonas Brock
+    title: Landslide hazards in the context of climate and land use change (Romania)
+    note: Secondary supervisor
+
+  - start: 2017
+    end: present
+    name: Simon M{\"u}rter
+    title: Comparing downscaling algorithms for Geomarketing applications
+    note: Secondary supervisor
+
+  - start: 2017
+    end: present
+    name: Daniel Cebulla
+    title: Comparing yield estimations derived from space and interpolated in-situ measurments in precision farming
+
+  - start: 2016
+    end: 2017
+    name: Jonas G{\"u}tter
+    title: Modellierung deutscher Niederspannungsverteilnetze auf Grundlage von OpenStreetMap-Daten
+
+  - start: 2016
+    end: 2016
+    name: Patrick Schratz
+    title: A weather-radar based hail climatology of northern Spain
+    note: Secondary supervisor
+
+  - start: 2011
+    end: 2012
+    name: Simon Hauenstein
+    title: Einfluss des Bodens auf die Entwicklung der Vegetation von Nebelbergen (lomas) in verschiedenen H{\"o}henstufen, Nordperu
+
+  - start: 2010
+    end: 2011
+    name: Michael Schwinn
+    title: GIS-gest{\"u}tzte Modellierung von Gefahrenzonen durch gravitative Massenbewegungen an den Verkehrswegen um Loja, S{\"u}decuador
+
+undergraduate:
+  - start: 2017
+    end: present
+    name: Clemens Paulmann
+    title: M{\"o}glichkeiten zum automatisierten download von georeferenzierten Fotos und Vergleich entsprechende Plattformen
+
+  - start: 2017
+    end: present
+    name: Susann Purucker
+    title: L{\"o}sung von mikroskalischen Routingproblemen am Beispiel eines Logistikunternehmens
+
+  - start: 2017
+    end: present
+    name: Eric Kr{\"u}ger
+    title: Reviewing the usage of software packages in mixed-methods publications, and introducing open-source software solutions
+
+  - start: 2016
+    end: 2016
+    name: Benjamin Harnisch
+    title: M{\"o}glichkeiten zur Anwendung von R als CAQ-GIS
+
+  - start: 2016
+    end: 2016
+    name: Theresa M{\"o}ller
+    title: Analyse r{\"a}umlich-zeitlicher Muster in georeferenzierten Twitter-Daten
+    note: Zweitgutachter
+
+  - start: 2016
+    end: 2016
+    name: Daphne Linn{\'{e}}a Meyrei{\ss}
+    title: Nichtlineare Regressionsmodellierung landwirtschaftlicher Ertragsdaten im On-Farm Research
+    note: Zweitgutachter
+
+  - start: 2016
+    end: 2016
+    name: Paul M{\"u}ller
+    title: Entwicklung und Trends der Geoinformatik
+    note: Zweitgutachter
+
+#  - start: 2008
+#    end: 2008
+#    title: Minimally invasive monitoring of grassland carbon inputs in a long term nitrogen addition experiment
+# http://kearney.ucdavis.edu/Undergrad_Fellowship_Reports/Chandler%20Final%20Report.pdf
+#    note: Kearney Undergraduate Fellowship (\$3,000), faculty advisor Sue Trumbore
+#  - start: 2007
+#    end: 2007
+#    title: The Effects of Nitrogen Addition at Different Stages of Decomposition (UCI Honors Thesis)
+#    note: Kearney Undergraduate Fellowship (\$3,000): faculty advisor Kathleen Treseder
+# http://kearney.ucdavis.edu/Undergrad_Fellowship_Reports/Chandler%20Final%20Report.pdf
+# http://kearney.ucdavis.edu/Approved%20Undergrad%20Fellowships.html

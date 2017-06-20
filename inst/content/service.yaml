@@ -1,0 +1,25 @@
+service:
+#  - context: Academic
+#    roles:
+#      - start: 2016
+#        end: present
+#        title: Member of the Steering Committee
+#        entity: Project LIFE Healthy Forest
+  - context: Journal Reviewer
+    roles:
+    - role: Applied Vegetation Science
+    - role: Ecological Modelling
+    - role: Erdkunde
+    - role: Forests
+    - role: Natural Hazards
+    - role: Plos One
+    - role: Sustainability
+
+  - context: Consultancy
+    roles:
+      - role: "GfK Geomarketing"
+        start: 2015
+        end: present
+
+
+

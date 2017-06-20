@@ -1,0 +1,22 @@
+posts:
+  - employer: GIScience department, University of Jena
+    roles:
+      - start: 2016
+        end: present
+        title: Postdoctoral research and teaching associate
+  - employer: GfK Geomarketing, Nuremberg
+    roles:
+      - start: 2013
+        end: 2015
+        title: Research specialist. \linebreak Market Data \& Research, Team Geostatistics. \linebreak
+          My tasks included the development and enhancement of methods and products
+          using innovative (geo-)statistical and visualization methods. Furthermore, I was in charge of
+          developing non-standard GIS solutions and the maintenance and
+          development of internal R packages
+  - employer: Institute of Geography, University of Erlangen-Nuremberg
+    roles:
+      - start: 2010
+        end: 2013
+        title: PhD studies on the impact of ENSO on the vegetation formations of
+               Peruvian arid environments
+

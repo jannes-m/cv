@@ -1,0 +1,64 @@
+# Configuration for full CV
+person:
+  first_name: Jannes
+  last_name: Muenchow
+  postnoms: ''
+  title: 'Dr.'
+  tel: (+49 3641) 948896
+  email: jannes.muenchow@uni-jena.de
+  web: "http://www.geographie.uni-\\\\jena.de/en/Muenchow.html"
+  subject: "GIScience, biogeography, geostatistics"
+  address:
+    line1: University of Jena
+    line2: GIScience
+    line3: L{\"o}bdergraben 32
+    postcode: 07743 Jena
+publications:
+  bib_file: papers.bib
+  sections:
+
+    subpapers:
+    - Muenchow.2017a
+    - Muenchow.2017b
+    - Schaefer.2017
+
+    papers:
+    - Brenning.2015
+    - Muenchow.2012
+    - Muenchow.2013
+    - Muenchow.2013b
+    - Muenchow.2013c
+    - Muenchow.2013d
+    - Peters.2014
+    - Rollenbeck.2015
+
+    monographs:
+    - Muenchow.2013e
+    - Muenchow.2009
+
+    software:
+      - Muenchow.2017c
+      - Brenning.2016
+sections:
+  - title: Employment
+    file: posts.yaml
+  - title: Education
+    file: education.yaml
+  - title: Research visits
+    file: visits.yaml
+  #- title: Grants
+   # file: grants.yaml
+#  - title: Awards
+#    file: awards.yaml
+  - title: Teaching
+    file: teaching.yaml
+  - title: Service
+    file: service.yaml
+  - title: Supervision
+    file: students.yaml
+#  - title: Affiliations
+#    file: affiliations.yaml
+  - title: # This field is unused
+    file: BIBTEX
+  - title: Talks and posters
+    file: talks.yaml
