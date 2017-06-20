@@ -1,6 +1,6 @@
 *.log
-*.out
 *.aux
+*.out
 vc.tex
 *.bak
 js/
