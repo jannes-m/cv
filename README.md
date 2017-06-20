@@ -1,1 +1,1 @@
-# cv
+cv was forked from https://github.com/dlebauer/vita which in turn builds on [Kieran Healy's](https://github.com/kjhealy/kjh-vita) cv. The formatting of the CV itself uses [Rob Hyndman's](http://robjhyndman.com/research/cv.sty) approach for the use of Biblatex to manage the publications list, and [James Keirstead's jk-vita repository](https://github.com/jkeirstead/jk-vita).
