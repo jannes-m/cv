@@ -7,3 +7,4 @@ content <- system.file("content/muenchow_full_vita.yaml", package = "vita")
 style <- system.file("style/dl-vita.sty", package = "vita")
 out <- "D:/programming/R/cv/out/"
 build_cv(content, style, out, clean = TRUE)
+

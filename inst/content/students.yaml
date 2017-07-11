@@ -45,9 +45,15 @@ master's level:
 
 undergraduate:
   - start: 2017
-    end: present
+    end: 2017
+    name: Dennis Kehl
+    title: R{\"a}umliche Analyse von socal media Daten am Beispiel des Elbehochwassers 2013
+    note: Zweitgutachter
+
+  - start: 2017
+    end: 2017
     name: Clemens Paulmann
-    title: M{\"o}glichkeiten zum automatisierten download von georeferenzierten Fotos und Vergleich entsprechende Plattformen
+    title: Vergleich viel genutzter Fotoplattformen zum automatisierten download am Beispiel von geoheritage-Bildern in Th{\"u}ringen
 
   - start: 2017
     end: present
@@ -55,7 +61,7 @@ undergraduate:
     title: L{\"o}sung von mikroskalischen Routingproblemen am Beispiel eines Logistikunternehmens
 
   - start: 2017
-    end: present
+    end: 2017
     name: Eric Kr{\"u}ger
     title: Reviewing the usage of software packages in mixed-methods publications, and introducing open-source software solutions
 

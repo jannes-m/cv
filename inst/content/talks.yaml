@@ -1,6 +1,12 @@
 talks:
   - year: 2017
     authors: "Muenchow, J., Schratz, P. \\& Brenning, A."
+    title: "Integrating R with QGIS for Statistical Geocomputing"
+    event: UseR!-conference
+    city: City of Brussels, Belgium
+    month: July
+  - year: 2017
+    authors: "Muenchow, J., Schratz, P. \\& Brenning, A."
     title: Integrating R with GIS for innovative geocomputing -- the examples of RQGIS and RSAGA
     event: EGU General Assembly
     city: Vienna, Austria

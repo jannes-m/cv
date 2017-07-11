@@ -14,7 +14,8 @@ bak/
 */output/*
 outdir/*
 TODO.org
-.Rproj.user
 .Rhistory
 .RData
 history.txt
+.Rproj
+.Rproj.user
