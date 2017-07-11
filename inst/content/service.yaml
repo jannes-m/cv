@@ -1,25 +1,36 @@
-service:
-#  - context: Academic
+# service:
+#   - context: Academic
 #    roles:
-#      - start: 2016
+#      - start: 2017
 #        end: present
-#        title: Member of the Steering Committee
+#        title: "Study counseling GIScience"
 #        entity: Project LIFE Healthy Forest
-  - context: Journal Reviewer
+
+service:
+  - context: Academic
     roles:
-    - role: Applied Vegetation Science
-    - role: Ecological Modelling
-    - role: Erdkunde
-    - role: Forests
-    - role: Natural Hazards
-    - role: Plos One
-    - role: Sustainability
+      - start: 2017
+        end: present
+        title: "Study counseling GIScience"
+        entitiy: "Institute of Geography"
 
   - context: Consultancy
     roles:
-      - role: "GfK Geomarketing"
-        start: 2015
-        end: present
+    - start: 2015
+      end: present
+      role: "GfK Geomarketing"
 
 
+  - context: Guest Editor
+    roles:
+    - role: "Plos One"
 
+  - context: Journal Reviewer
+    roles:
+      - role: Applied Vegetation Science
+      - role: Ecological Modelling
+      - role: Erdkunde
+      - role: Forests
+      - role: Natural Hazards
+      - role: Plos One
+      - role: Sustainability
