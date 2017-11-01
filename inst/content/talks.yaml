@@ -1,5 +1,16 @@
 talks:
   - year: 2017
+    authors: "Muenchow, J."
+    title: GeoStat Summer School.
+       \begin{enumerate}
+        \item R/GIS bridges for statistical geocomputing
+        \item An introduction to RQGIS
+        \item Prediction of species richness using RQGIS
+        \end{enumerate} Lectures and computer practicals
+    event: GeoStat Summer School (invited)
+    city: Split, Croatia
+    month: August
+  - year: 2017
     authors: "Muenchow, J., Schratz, P. \\& Brenning, A."
     title: "Integrating R with QGIS for Statistical Geocomputing"
     event: UseR!-conference
