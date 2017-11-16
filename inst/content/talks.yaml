@@ -1,4 +1,16 @@
 talks:
+  - year: 2018
+    authors: "Muenchow, J."
+    title: "A review of ecological gradients in the Tropics"
+    event: Research Colloquium
+    city: Jena, Germany
+    month: February
+  - year: 2017
+    authors: "Muenchow, J."
+    title: "(Automatisierte) Geoprozessierung mit Open-Source Software"
+    event: GISday 2017 (invited)
+    city: Jena, Germany
+    month: November
   - year: 2017
     authors: "Muenchow, J."
     title: GeoStat Summer School.
