@@ -4,23 +4,19 @@ phd:
       name: Patrick Schratz
       title: Spatial prediction of tree desease using topography, climate and multi- and hyperspectral images in Northern Spain
       note: Informal co-advisor
+
 master's level:
   - start: 2017
-    end: present
-    name: Jonas Brock
-    title: Landslide hazards in the context of climate and land use change (Romania)
-    note: Secondary supervisor
-
-  - start: 2017
-    end: present
+    end: 2018
     name: Simon M{\"u}rter
     title: Comparing downscaling algorithms for Geomarketing applications
     note: Secondary supervisor
 
   - start: 2017
-    end: present
+    end: 2017
     name: Daniel Cebulla
-    title: Comparing yield estimations derived from space and interpolated in-situ measurments in precision farming
+    title: R{\"a}umliche Ertragsanalyse in der teilfl{\"a}chenspezfischen Bewirtschaftung
+    note: Zweitgutachter
 
   - start: 2016
     end: 2017
@@ -44,6 +40,12 @@ master's level:
     title: GIS-gest{\"u}tzte Modellierung von Gefahrenzonen durch gravitative Massenbewegungen an den Verkehrswegen um Loja, S{\"u}decuador
 
 undergraduate:
+  - start: 2017
+    end: 2018
+    name: Victor Schurade
+    title: R{\"a}umliche Modellierung von Murg{\"a}ngen in den zentralchilenischen Anden - ein GIS-basierter Ansatz
+    note: Zweitgutachter
+
   - start: 2017
     end: 2017
     name: Dennis Kehl
