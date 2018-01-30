@@ -18,11 +18,11 @@ publications:
   sections:
 
     subpapers:
-    - Muenchow.2017a
-    - Muenchow.2017b
-    - Schaefer.2017
+     - Schaefer.2018
 
     papers:
+    - Muenchow.2018a
+    - Muenchow.2017
     - Brenning.2015
     - Muenchow.2012
     - Muenchow.2013
@@ -37,7 +37,7 @@ publications:
     - Muenchow.2009
 
     software:
-      - Muenchow.2017c
+      - Muenchow.2018b
       - Brenning.2016
 sections:
   - title: Employment
