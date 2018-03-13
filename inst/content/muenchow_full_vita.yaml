@@ -17,8 +17,13 @@ publications:
   bib_file: papers.bib
   sections:
 
-    subpapers:
-     - Schaefer.2018
+# Bibliographic categories can be found and adjusted in dl-vita.sty
+
+#    subpapers:
+#     - Schaefer.2018
+
+    curpapers:
+    - Lovelace
 
     papers:
     - Muenchow.2018a
@@ -36,9 +41,13 @@ publications:
     - Muenchow.2013e
     - Muenchow.2009
 
+    chapters:
+    - Schaefer.2018
+
     software:
       - Muenchow.2018b
       - Brenning.2016
+
 sections:
   - title: Employment
     file: posts.yaml

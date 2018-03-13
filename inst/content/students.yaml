@@ -6,10 +6,16 @@ phd:
       note: Informal co-advisor
 
 master's level:
+
+  - start: 2018
+    end: present
+    name: Christian Walter
+    title: Floristic modeling
+
   - start: 2017
     end: 2018
     name: Simon M{\"u}rter
-    title: Comparing downscaling algorithms for Geomarketing applications
+    title: Small-area population estimation using downscaling algorithms
     note: Secondary supervisor
 
   - start: 2017
