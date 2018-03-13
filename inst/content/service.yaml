@@ -7,12 +7,13 @@
 #        entity: Project LIFE Healthy Forest
 
 service:
+
   - context: Academic
     roles:
       - start: 2017
         end: present
         title: "Study counseling GIScience"
-        entitiy: "Institute of Geography"
+#        entitiy: "Institute of Geography"
 
   - context: Consultancy
     roles:
