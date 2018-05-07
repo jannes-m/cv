@@ -7,10 +7,11 @@ phd:
 
 master's level:
 
-  - start: 2018
-    end: present
-    name: Christian Walter
-    title: Floristic modeling
+  - start: 2017
+    end: 2018
+    name: Fabian Polakowski
+    title: Evaluating the performance and accuracy of selected spatial analysis tools in GIS software
+    note: Secondary supervisor
 
   - start: 2017
     end: 2018
