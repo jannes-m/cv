@@ -1,10 +1,10 @@
 talks:
   - year: 2018
-    authors: "Muenchow, J."
-    title: "A review of ecological gradients in the Tropics"
-    event: Research Colloquium
-    city: Jena, Germany
-    month: February
+    authors: "Muenchow, J. \\& Lovelace, R."
+    title: "Workshop on Geocomputation with R"
+    event: eRum - European R Users Meeting
+    city: Budapest, Hungary
+    month: May
   - year: 2017
     authors: "Muenchow, J."
     title: "(Automatisierte) Geoprozessierung mit Open-Source Software"
