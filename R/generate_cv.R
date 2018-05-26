@@ -195,9 +195,9 @@ build_cv <- function(content, style, out = NULL, clean = TRUE) {
   setwd(out)
   system(paste("xelatex", gsub("yaml", "tex", basename(content))))
   # run biber to add the literature
-  system("biber muenchow_full_vita")
+  system(paste("biber", tools::file_path_sans_ext(basename(content))))
   # compile the pdf again to make the literature appear in the text
-  system("xelatex muenchow_full_vita.tex")
+  system(paste("xelatex", gsub("yaml", "tex", basename(content))))
 
   # clean up
   if (clean) {
@@ -452,4 +452,24 @@ format_visits <- function(l) {
   })
 
   return(lines)
+}
+
+format_language <- function(l) {
+  tmp <- l[[1]]
+
+  lines <- lapply(tmp, function(x) {
+    topline <- sprintf("\\ind \\textit{%s}: %s.\n", x$language, x$roles[[1]]$title)
+    topline
+  })
+  lines
+}
+
+format_computing <- function(l) {
+  tmp <- l[[1]]
+
+  lines <- lapply(tmp, function(x) {
+    topline <- sprintf("\\ind \\textit{%s}: %s.\n", x$language, x$roles[[1]]$title)
+    topline
+  })
+  lines
 }
