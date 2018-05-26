@@ -8,7 +8,7 @@ posts:
     roles:
       - start: 2013
         end: 2015
-        title: Research specialist. \linebreak Market Data \& Research, Team Geostatistics. \linebreak
+        title: Geographic data scientist. \linebreak Market Data \& Research, Team Geostatistics. \linebreak
           My tasks included the development and enhancement of methods and products
           using innovative (geo-)statistical and visualization methods. Furthermore, I was in charge of
           developing non-standard GIS solutions and the maintenance and
@@ -19,4 +19,15 @@ posts:
         end: 2013
         title: PhD studies on the impact of ENSO on the vegetation formations of
                Peruvian arid environments
+  - employer: GeoForschungsZentrum Potsdam
+    roles:
+      - start: 10/2008
+        end: 02/2009
+        title: Fixed-term work contract within GITEWS (German Indonesian Tsunami Early Warning System) including a six week field trip to Indonesia
+  - employer: Nursery school „Kulleberga“ Berlin (Germany)
+    roles:
+      - start: 2002
+        end: 2003
+        title: Civilian service
+
 
