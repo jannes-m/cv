@@ -3,7 +3,17 @@ posts:
     roles:
       - start: 2016
         end: present
-        title: Postdoctoral research and teaching associate
+        title: Postdoctoral research and teaching associate. \linebreak
+          My work strongly focuses on stastical geocomputing, geospatial algorithm automation and development of customized GIS applications.
+          \begin{quote}
+          \begin{enumerate}
+            \item \href{https://geocompr.robinlovelace.net/}{Geocomputation with R} and \href{https://github.com/jannes-m/RQGIS}{RQGIS}.
+            \item Predictive modeling and mapping of the impact of ENSO in the tropics.
+            \item Predicting forest disease in Spanish pine forests using machine learning.
+            \item Reviewing and developing software for qualitative GIS.
+            \item Natural hazards modeling and susceptibility prediction.
+          \end{enumerate}
+          \end{quote}
   - employer: GfK Geomarketing, Nuremberg
     roles:
       - start: 2013
