@@ -364,7 +364,11 @@ format_posts <- function(l) {
 
         roles <- lapply(x$roles, function(x) {
             if ("end" %in% names(x)) {
+              if (grepl("enumerate|itemize", x$title)) {
+                with(x, sprintf("\\ind %s--%s.  %s\n", start, end, title))
+              } else {
                 with(x, sprintf("\\ind %s--%s.  %s.\n", start, end, title))
+              }
             } else {
                 with(x, sprintf("\\ind %s.  %s.\n", start, title))
             }
