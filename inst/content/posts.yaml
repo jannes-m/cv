@@ -7,7 +7,7 @@ posts:
           My work strongly focuses on stastical geocomputing, geospatial algorithm automation and development of customized GIS applications.
           \begin{quote}
           \begin{enumerate}
-            \item \href{https://geocompr.robinlovelace.net/}{Geocomputation with R} and \href{https://github.com/jannes-m/RQGIS}{RQGIS}.
+            \item {\color{ImperialLightBlue}\href{https://geocompr.robinlovelace.net/}{Geocomputation with R}} and {\color{ImperialLightBlue}\href{https://github.com/jannes-m/RQGIS}{RQGIS}}.
             \item Predictive modeling and mapping of the impact of ENSO in the tropics.
             \item Predicting forest disease in Spanish pine forests using machine learning.
             \item Reviewing and developing software for qualitative GIS.
