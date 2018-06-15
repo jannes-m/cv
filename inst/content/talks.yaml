@@ -1,6 +1,12 @@
 talks:
   - year: 2018
-    authors: "Muenchow, J. \\& Lovelace, R."
+    authors: Muenchow, J., M{\"u}rter, S., Brenning, A.
+    title: 'Koppelung von "Offenen Geodaten" mit open source Geosoftware: Beispiele aus Wirtschaft und Wissenschaft (invited)'
+    event: Th{\"u}ringer GIS Forum
+    city: Erfurt, Germany
+    month: June
+  - year: 2018
+    authors: "Muenchow, J., Lovelace, R."
     title: "Workshop on Geocomputation with R"
     event: eRum - European R Users Meeting
     city: Budapest, Hungary
@@ -13,23 +19,18 @@ talks:
     month: November
   - year: 2017
     authors: "Muenchow, J."
-    title: Lectures on
-       \begin{enumerate}
-          \item R/GIS bridges for statistical geocomputing
-          \item An introduction to RQGIS
-          \item Prediction of species richness using RQGIS
-        \end{enumerate} Lectures and computer practicals
+    title: Three lectures and computer practicals on R/GIS bridges for statistical geocomputing
     event: Geostat Summer School (invited)
     city: Split, Croatia
     month: August
   - year: 2017
-    authors: "Muenchow, J., Schratz, P. \\& Brenning, A."
+    authors: "Muenchow, J., Schratz, P., Brenning, A."
     title: "Integrating R with QGIS for Statistical Geocomputing"
     event: UseR!-conference
     city: City of Brussels, Belgium
     month: July
   - year: 2017
-    authors: "Muenchow, J., Schratz, P. \\& Brenning, A."
+    authors: "Muenchow, J., Schratz, P., Brenning, A."
     title: Integrating R with GIS for innovative geocomputing -- the examples of RQGIS and RSAGA
     event: EGU General Assembly
     city: Vienna, Austria
@@ -47,13 +48,13 @@ talks:
     city: Jena, Germany
     month: December
   - year: 2016
-    authors: "Schratz, P., Muenchow, J. \\& Brenning, A."
+    authors: "Schratz, P., Muenchow, J., Brenning, A."
     title: Modeling the spatial distribution of hail damage in pine plantations of Northern Spain as a major risk factor for forest disease
     event: First workshop of LIFE Healthy Forest
     city: Vitoria, Spain
     month: October
   - year: 2016
-    authors: "Brenning, A., Goetz, J., Muenchow, J. \\& Petschko, H."
+    authors: "Brenning, A., Goetz, J., Muenchow, J., Petschko, H."
     title: Regionalskalige Modellierung gravitativer Massenbewegungen mit Hilfe statistischer und physikalisch basierter Modelle
     event: AK Gemorphologie
     city: Jena, Germany
@@ -65,7 +66,7 @@ talks:
     city: Nuremberg, Germany
     month: May
   - year: 2016
-    authors: "Brenning, A. \\& Muenchow, J."
+    authors: "Brenning, A., Muenchow, J."
     title: Uncertainty and quality evaluation in landslide hazard and risk assessment
     event: EGU General Assembly
     city: Vienna, Austria
@@ -101,7 +102,7 @@ talks:
     city: Bonn, Germany
     month: January
   - year: 2013
-    authors: "Muenchow, J. \\& Hauenstein, S."
+    authors: "Muenchow, J., Hauenstein, S."
     title: Modellierung floristischer Gradienten auf Nebelbergen in NW-Peru – eine sanfte Einf{\"u}hrung in die Welt der Ordinationen und Modellierungen
     event: Research \& Methods Colloqium
     city: Erlangen, Germany
@@ -113,13 +114,13 @@ talks:
     city: Erlangen, Germany
     month: July
   - year: 2012
-    authors: "Muenchow, J. \\& von Wehrden, H."
+    authors: "Muenchow, J., von Wehrden, H."
     title: Vegetation changes along a climatic gradient during a drought year in NW-Peru
     event: Poster at the GF{\"O} conference
     city: L{\"u}neburg, Germany
     month: September
   - year: 2012
-    authors: "Muenchow, J., Brenning, A. \\& Richter, M."
+    authors: "Muenchow, J., Brenning, A., Richter, M."
     title: Relationship between landslides, landscape evolution and vegetation under human pressure in the tropical Andes
     event: GT{\"O} conference
     city: Erlangen, Germany
@@ -131,19 +132,19 @@ talks:
     city: Erlangen, Germany
     month: February
   - year: 2011
-    authors: "Muenchow, J., Brenning, A. \\& Richter, M."
+    authors: "Muenchow, J., Brenning, A., Richter, M."
     title: Landslide Prozessraten entlang eines innerandinen O-W Feuchtegradienten
     event: AK Hochgebirge
     city: Erlangen, Germany
     month: February
   - year: 2010
-    authors: "Muenchow, J., Brenning, A. \\& Richter, M."
+    authors: "Muenchow, J., Brenning, A., Richter, M."
     title: Geomorphologische Prozessraten flachgr{\"u}ndiger Hangbewegungen auf beiden Andenabdachungen der tropischen Anden
     event: AK Geomorphologie
     city: Frankfurt am Main, Germany
     month: October
   - year: 2010
-    authors: "Muenchow, J., Brenning, A. \\& Richter, M."
+    authors: "Muenchow, J., Brenning, A., Richter, M."
     title: Hangbewegungen auf beiden Andenabdachungen S{\"u}decuadors –- Typen, Ursachen und Denudationsraten
     event: AK Hochgebirge \& ARGE
     city: Bayreut, Germany
