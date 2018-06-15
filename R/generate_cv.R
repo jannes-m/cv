@@ -228,6 +228,8 @@ format_talks <- function(l) {
     #                     year, authors, title, event, city))
     # })
     lines <- lapply(tmp, function(x) {
+      x$authors = gsub("Muenchow, J.", "\\\\textbf{Muenchow, J.}",
+                       x$authors)
       with(x, sprintf("\\ind %s (%s): \\textit{%s}. %s, %s.\n",
                       authors, year, title, event, city))
     })
@@ -242,7 +244,8 @@ format_affiliations <- function(l) {
     tmp <- tmp[ord]
 
     lines <- lapply(tmp, function(x) {
-        with(x, sprintf("\\ind %d--%s.  %s, \\emph{%s}.\n", start, end, status, org))
+        with(x, sprintf("\\ind %d--%s.  %s, \\emph{%s}.\n", start, end, status,
+                        org))
     })
     return(lines)
 }
