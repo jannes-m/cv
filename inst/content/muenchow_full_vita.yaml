@@ -19,34 +19,35 @@ publications:
 
 # Bibliographic categories can be found and adjusted in dl-vita.sty
 
-#    subpapers:
-#     - Schaefer.2018
+    subpapers:
+     - muenchow_reviewing_2018
+     - schratz_performance_2018
 
     curpapers:
-    - Lovelace
+    - lovelace_geocomputation_2018
 
     papers:
-    - Muenchow.2018a
-    - Muenchow.2017
-    - Brenning.2015
-    - Muenchow.2012
-    - Muenchow.2013
-    - Muenchow.2013b
-    - Muenchow.2013c
-    - Muenchow.2013d
-    - Peters.2014
-    - Rollenbeck.2015
+    - muenchow_review_2018
+    - muenchow_rqgis_2017
+    - brenning_landslide_2015
+    - muenchow_geomorphic_2012
+    - muenchow_predictive_2013
+    - muenchow_coupling_2013
+    - muenchow_soil_2013
+    - muenchow_woody_2013
+    - peters_ecological_2014
+    - rollenbeck_climatic_2015
 
     monographs:
-    - Muenchow.2013e
-    - Muenchow.2009
+    - muenchow_vegetation_2013
+    - muenchow_gravitative_2009
 
     chapters:
-    - Schaefer.2018
+    - schaefer_qualitative_2018
 
     software:
-      - Muenchow.2018b
-      - Brenning.2016
+      - muenchow_rqgis_2018
+      - brenning_rsaga_2018
 
 sections:
   - title: Employment
