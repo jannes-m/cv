@@ -1,5 +1,17 @@
 talks:
   - year: 2018
+    authors: Schratz, P., Muenchow, J., Richter, J., Iturritxa, E., Brenning, A.
+    title: "Performance evaluation and hyperparameter tuning of statistical and machine-learning models using spatial data"
+    event: ICEI - International Conference on Ecological Informatics
+    city: Jena, Germany
+    month: September
+  - year: 2018
+    authors: Sch{\"a}fer, S., Muenchow, J.
+    title: "The spatial formation of emerging and growing entrepreneurial ecosystems"
+    event: Global Conference on Economic Geography
+    city: Cologne, Germany
+    month: July
+  - year: 2018
     authors: Muenchow, J., M{\"u}rter, S., Brenning, A.
     title: 'Koppelung von "Offenen Geodaten" mit open source Geosoftware: Beispiele aus Wirtschaft und Wissenschaft (invited)'
     event: Th{\"u}ringer GIS Forum
