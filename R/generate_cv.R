@@ -332,12 +332,12 @@ format_service <- function(l) {
         topline <- list()
         topline <- sprintf("\\subsection*{%s}\n", x$context)
         roles <- list()
-        if(x$context == "Academic"){
+        if (x$context == "Academic"){
             for(i in 1:length(x$roles)){
                 r <- x$roles[[i]]
                 roles[[i]] <- paste0("\\ind ", r$start,
                                     ifelse(!is.null(r$end), paste0("--", r$end), ""),
-                                     ". ", r$title, ". ",  r$entity, ". \n")
+                                     ". ", r$title, ". ", "\n")
             }
         } else if (grepl("Workshops", x$context)) {
             for(i in 1:length(x$roles)){
@@ -348,11 +348,12 @@ format_service <- function(l) {
         } else if (x$context == "Consultancy") {
             for(i in 1:length(x$roles)){
                 r <- x$roles[[i]]
-                roles[[i]] <- paste0("\\ind ", r$start, ifelse(!is.null(r$end), paste0("--", r$end), ""), ". ", r$role,"\n")
+                roles[[i]] <- paste0("\\ind ", r$start, ifelse(!is.null(r$end), paste0("--", r$end), ""), ". ", r$role,".\n")
             }
 
         } else {
             roles[[1]] <- paste(unlist(x$roles), collapse = ", ")
+            roles [[1]] <- paste0(roles[[1]], ".")
         }
 
         c(list(topline), roles)

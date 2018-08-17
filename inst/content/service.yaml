@@ -13,7 +13,7 @@ service:
       - start: 2017
         end: present
         title: "Study counseling GIScience"
-#        entitiy: "Institute of Geography"
+        entitiy: "Institute of Geography, Department of GIScience"
 
   - context: Consultancy
     roles:
