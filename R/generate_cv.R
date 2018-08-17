@@ -91,8 +91,9 @@ build_cv <- function(content, style, out = NULL, clean = TRUE) {
   }
   suppressWarnings(dir.create(out))
   # check if content file exists
-  if (!file.exists(content))
+  if (!file.exists(content)) {
     stop(sprintf("Unable to find content file '%s'", content))
+  }
 
   message("Processing YAML files...", appendLF = FALSE)
   # load the config file
@@ -201,7 +202,7 @@ build_cv <- function(content, style, out = NULL, clean = TRUE) {
 
   # clean up
   if (clean) {
-    file.remove(dir(out)[!grepl(".pdf", dir(out))])
+    file.remove(file.path(out, dir(out))[!grepl(".pdf", dir(out))])
   }
   setwd(tmp_dir)
 
