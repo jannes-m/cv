@@ -30,8 +30,14 @@
 
 \usepackage[compact,small,sf,bf]{titlesec}
 \usepackage{marvosym}
+% fontspec is needed in any case by Xelatex but using Arch we need it already here
+% solution was found here:
+%https://tex.stackexchange.com/questions/132888/fontawesome-font-not-found
+\usepackage{fontspec}
+\defaultfontfeatures{
+    Path = /usr/share/texmf-dist/fonts/opentype/public/fontawesome/}
 \usepackage{fontawesome}
-% Using Miktex the fontawesome symbols do not show, therefore you need to add a line of code
+% Using Miktex/Texlive the fontawesome symbols do not show, therefore you need to add a line of code
 % http://tex.stackexchange.com/questions/265736/xelatex-fontawesome-compiles-without-errors-but-doesnt-show-symbols
 \newfontfamily{\FA}{fontawesome.otf}
 \usepackage{marginnote}%\reversemarginpar %marginnotes on left
@@ -50,8 +56,6 @@
 %% ------------------------------------------------------------------------
 %% Fonts and colours
 %% ------------------------------------------------------------------------
-%% needed for xelatex to work
-\usepackage{fontspec}
 \usepackage{xunicode}
 
 %% color for the links
