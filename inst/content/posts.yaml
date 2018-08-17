@@ -4,7 +4,7 @@ posts:
       - start: 2016
         end: present
         title: Postdoctoral research and teaching associate. \linebreak
-          My work strongly focuses on stastical geocomputing, geospatial algorithm automation and development of customized GIS applications.
+          My work strongly focuses on (tropical) ecology,  quantitative analysis of geo-ecosystems, and automatized statistical geocomputing.
           \begin{quote}
           \begin{enumerate}
             \item {\color{ImperialLightBlue}\href{https://geocompr.robinlovelace.net/}{Geocomputation with R}} and {\color{ImperialLightBlue}\href{https://github.com/jannes-m/RQGIS}{RQGIS}}.

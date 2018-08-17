@@ -17,24 +17,12 @@ talks:
     event: Th{\"u}ringer GIS Forum
     city: Erfurt, Germany
     month: June
-  - year: 2018
-    authors: "Muenchow, J., Lovelace, R."
-    title: "Workshop on Geocomputation with R"
-    event: eRum - European R Users Meeting
-    city: Budapest, Hungary
-    month: May
   - year: 2017
     authors: "Muenchow, J."
     title: "(Automatisierte) Geoprozessierung mit Open-Source Software"
     event: GISday 2017 (invited)
     city: Jena, Germany
     month: November
-  - year: 2017
-    authors: "Muenchow, J."
-    title: Three lectures and computer practicals on R/GIS bridges for statistical geocomputing
-    event: Geostat Summer School (invited)
-    city: Split, Croatia
-    month: August
   - year: 2017
     authors: "Muenchow, J., Schratz, P., Brenning, A."
     title: "Integrating R with QGIS for Statistical Geocomputing"
@@ -85,12 +73,6 @@ talks:
     month: April
   - year: 2016
     authors: "Muenchow, J."
-    title: Introducci\'{o}n al uso y programaci\'{o}n del sistema estad\'{i}stica R (invitado)
-    event: Workshop
-    city: Piura, Peru
-    month: April
-  - year: 2016
-    authors: "Muenchow, J."
     title: GIScience applications in geomarketing, geomorphology and biogeography (invited)
     event: Research Colloqium
     city: Jena, Germany
@@ -119,12 +101,6 @@ talks:
     event: Research \& Methods Colloqium
     city: Erlangen, Germany
     month: January
-  - year: 2012
-    authors: "Muenchow, J."
-    title: Multivariate Datenvisualisierung mit R. Vorstellung des lattice Pakets
-    event: Research \& Methods Colloqium
-    city: Erlangen, Germany
-    month: July
   - year: 2012
     authors: "Muenchow, J., von Wehrden, H."
     title: Vegetation changes along a climatic gradient during a drought year in NW-Peru

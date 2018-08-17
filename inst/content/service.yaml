@@ -34,4 +34,5 @@ service:
       - role: Forests
       - role: Natural Hazards
       - role: Plos One
+      - role: Sensors
       - role: Sustainability

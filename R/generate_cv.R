@@ -202,7 +202,7 @@ build_cv <- function(content, style, out = NULL, clean = TRUE) {
 
   # clean up
   if (clean) {
-    file.remove(file.path(out, dir(out))[!grepl(".pdf", dir(out))])
+    file.remove(dir()[!grepl(".pdf", dir())])
   }
   setwd(tmp_dir)
 
@@ -236,6 +236,7 @@ format_talks <- function(l) {
     })
     lines
 }
+format_workshops <- format_talks
 
 format_affiliations <- function(l) {
     tmp <- l[[1]]
@@ -447,8 +448,8 @@ format_visits <- function(l) {
   tmp <- l[[1]]
 
   ## Sort by year order
-  ord <- order(unlist(lapply(tmp, function(x) x$start)), decreasing = TRUE)
-  tmp <- tmp[ord]
+  # ord <- order(unlist(lapply(tmp, function(x) x$start)), decreasing = TRUE)
+  # tmp <- tmp[ord]
   end <- ""
 
   lines <- lapply(tmp, function(x) {
