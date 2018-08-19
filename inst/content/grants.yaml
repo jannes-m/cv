@@ -19,12 +19,24 @@ grants:
     funder: FSU programme to support junior researchers in obtaining third-party funding
     role: PI
     value: "€8,878"
+  - start: 2016
+    end: 2017
+    title: Employment funds
+    funder: FSU Jena, Department of GIScience
+    role: PI
+    value: "€7,500"
   - start: 2011
     end: 2013
     title: Extreme Niederschlagsereignisse als Ursache katastrophaler Massenbewegungen im S\"{u}den von Chiapas / Mexiko
     funder: DFG (Sachbeihilfe)
     role: co-author
     value: "€6,780"
+  - start: 2007
+    end: 2008
+    title: Student exchange
+    funder: German Federal Training Assistance Act for Foreign Studies
+    value: "€12,500"
+    role: stipend
 
 
 

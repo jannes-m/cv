@@ -164,6 +164,7 @@ build_cv <- function(content, style, out = NULL, clean = TRUE) {
              "\\begin{document}",
              "\\maketitle",
              "",
+             "born in Dresden, Germany, on 09/29/1981.",
              sections,
              "\\end{document}")
 
