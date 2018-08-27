@@ -13,14 +13,14 @@ talks:
     month: July
   - year: 2018
     authors: Muenchow, J., M{\"u}rter, S., Brenning, A.
-    title: 'Koppelung von "Offenen Geodaten" mit open source Geosoftware: Beispiele aus Wirtschaft und Wissenschaft (invited)'
-    event: Th{\"u}ringer GIS Forum
+    title: 'Koppelung von "Offenen Geodaten" mit open source Geosoftware: Beispiele aus Wirtschaft und Wissenschaft'
+    event: Th{\"u}ringer GIS Forum (\textbf{invited})
     city: Erfurt, Germany
     month: June
   - year: 2017
     authors: "Muenchow, J."
     title: "(Automatisierte) Geoprozessierung mit Open-Source Software"
-    event: GISday 2017 (invited)
+    event: GISday 2017
     city: Jena, Germany
     month: November
   - year: 2017
@@ -61,8 +61,8 @@ talks:
     month: October
   - year: 2016
     authors: "Muenchow, J."
-    title: An introduction to the RQGIS package (invited)
-    event: Talk at GfK Geomarketing (knowledge exchange)
+    title: An introduction to the RQGIS package
+    event: Talk at GfK Geomarketing (\textbf{invited})
     city: Nuremberg, Germany
     month: May
   - year: 2016
@@ -73,7 +73,7 @@ talks:
     month: April
   - year: 2016
     authors: "Muenchow, J."
-    title: GIScience applications in geomarketing, geomorphology and biogeography (invited)
+    title: GIScience applications in geomarketing, geomorphology and biogeography
     event: Research Colloqium
     city: Jena, Germany
     month: January
@@ -85,14 +85,14 @@ talks:
     month: December
   - year: 2013
     authors: "Muenchow, J."
-    title: Logistic and Poisson regression in ecology (invited)
-    event: Talk at GfK Geomarketing
+    title: Logistic and Poisson regression in ecology
+    event: Talk at GfK Geomarketing (\textbf{invited})
     city: Nuremberg, Germany
     month: July
   - year: 2013
     authors: "Muenchow, J."
-    title: Modeling floristic patterns in arid but ENSO-affected Peruvian ecosystems (invited)
-    event: Research Colloqium
+    title: Modeling floristic patterns in arid but ENSO-affected Peruvian ecosystems
+    event: Research Colloqium (\textbf{invited})
     city: Bonn, Germany
     month: January
   - year: 2013
@@ -139,8 +139,8 @@ talks:
     month: June
   - year: 2009
     authors: "Muenchow, J."
-    title: Landslides in the Andes of Southern Ecuador (invited)
-    event: Research Colloquium
+    title: Landslides in the Andes of Southern Ecuador
+    event: Research Colloquium (\textbf{invited})
     city: Waterloo, Canada
     month: August
   - year: 2009

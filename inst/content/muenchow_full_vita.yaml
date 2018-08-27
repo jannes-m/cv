@@ -4,21 +4,20 @@ person:
   last_name: Muenchow
   postnoms: ''
   title: 'Dr.'
-  tel: (+49 3641) 948896
+  tel: (+49 911) 4784411
   email: jannes.muenchow@uni-jena.de
   web: "http://www.geographie.uni-\\\\jena.de/en/Muenchow.html"
   subject: "GIScience, biogeography, geostatistics"
   address:
-    line1: University of Jena
-    line2: GIScience
-    line3: L{\"o}bdergraben 32
-    postcode: 07743 Jena
+    line1: Camsdorfer Str. 22
+    line2: 07749 Jena
+    line3: Germany
+#    postcode: 07749 Jena
 publications:
   bib_file: papers.bib
   sections:
 
 # Bibliographic categories can be found and adjusted in dl-vita.sty
-
     subpapers:
      - muenchow_reviewing_2018
      - manzanos_mating_2018
@@ -63,15 +62,15 @@ sections:
 #    file: awards.yaml
   - title: Teaching
     file: teaching.yaml
+  - title: Workshops
+    file: workshops.yaml
   - title: Service
     file: service.yaml
   - title: Supervision
     file: students.yaml
 #  - title: Affiliations
 #    file: affiliations.yaml
-  - title: # This field is unused
+  - title:
     file: BIBTEX
-  - title: Workshops
-    file: workshops.yaml
   - title: Talks and posters
     file: talks.yaml

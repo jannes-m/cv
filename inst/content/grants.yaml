@@ -1,18 +1,11 @@
 grants:
   - start: 2019
     end: 2022
-    title: Open source software for qualitative GIS - using the example of the evolution of entrepreneurial ecosystems
-    funder: DFG (planned)
-    role: PI (together with Dr Susann Sch\"{a}fer
-    value: 2 PhD candidates, research assistants and travels costs
-    note: in preparation
-  - start: 2019
-    end: 2022
     title: "OPEN-BIOGUARD - Climate change pressures on tropical biodiversity and related economic impacts – an integrated vulnerability assessment supported by an open data platform"
     funder: ERANET-LAC
     role: PI (with partners from Spain, Poland, Ecuador and Peru)
-    value: "€447,431"
-    note: Decision due in September 2018
+    value: "€447,431 (own share: €120,000)"
+    note: Submitted in March 2018. Decision due in September 2018
   - start: 2017
     end: 2018
     title: Monitoring of the highly endangered and unique ecosystems of northern Peru in times of increased climatic variability due to climate change and El Ni{\~n}o
@@ -27,10 +20,10 @@ grants:
     value: "€7,500"
   - start: 2011
     end: 2013
-    title: Extreme Niederschlagsereignisse als Ursache katastrophaler Massenbewegungen im S\"{u}den von Chiapas / Mexiko
+    title: Extreme thunderstorms as cause for catastropic mass movemens in Chiapas, Mexico
     funder: DFG (Sachbeihilfe)
     role: co-author
-    value: "€6,780"
+    value: "€6,780 (own share: €1,500)"
   - start: 2007
     end: 2008
     title: Student exchange

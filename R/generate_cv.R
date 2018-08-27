@@ -144,7 +144,15 @@ build_cv <- function(content, style, out = NULL, clean = TRUE) {
     }
   })
   sections <- unlist(sections)
-
+  ind = grep("begin\\{publications", sections)
+  insert =
+    paste0("So far, I have published 10 peer-reviewed journal articles which ",
+           "were cited 77 times (54 times excluding self-citations) according ",
+           "to the Web of Science and 117 times when consulting Google ",
+           "Scholar. The h-index is 6.\\linebreak\\linebreak")
+  sections = c(sections[1:ind],
+               insert,
+               sections[(ind + 1):length(sections)])
   # sections[grepl("software", sections)] <-
   #   "\\section{Other}\\printbib{software}"
 

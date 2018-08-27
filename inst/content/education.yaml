@@ -5,6 +5,12 @@ degrees:
     end: 2013
     university: University of Erlangen-Nuremberg
     award: (magna cum laude)
+  - degree: Foreign student exchange
+    thesis:
+    university: Catholic University of Chile, Santiago de Chile. Studies of Geography.
+    year: 2007
+    end: 2008
+    award:
   - degree: Diplom-Geograph (comparable to a MSc Geography)
     thesis: Gravitative Massenbewegungen und ihre Prozessraten auf beiden Andenabdachungen S{\"u}decuadors - eine vergleichende geomorphologische Studie mit vegetationsgeographischen Ans{\"a}tzen
     university: University of Erlangen-Nuremberg, Germany and Catholic University of Chile. Studies of Geography with a minor in Geology and Biology

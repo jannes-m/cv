@@ -1,29 +1,29 @@
-phd:
+PhD:
     - start: 2016
       end: present
       name: Patrick Schratz
       title: Spatial prediction of tree desease using topography, climate and multi- and hyperspectral images in Northern Spain
-      note: Informal co-advisor
+      note: Informal Co-supervisor
 
-master's level:
+Master's level:
 
   - start: 2017
     end: 2018
     name: Fabian Polakowski
     title: Evaluating the performance and accuracy of selected spatial analysis tools in GIS software
-    note: Secondary supervisor
+    note: Co-supervisor
 
   - start: 2017
     end: 2018
     name: Simon M{\"u}rter
     title: Small-area population estimation using downscaling algorithms
-    note: Secondary supervisor
+    note: Co-supervisor
 
   - start: 2017
     end: 2017
     name: Daniel Cebulla
     title: R{\"a}umliche Ertragsanalyse in der teilfl{\"a}chenspezfischen Bewirtschaftung
-    note: Zweitgutachter
+    note: Co-supervisor
 
   - start: 2016
     end: 2017
@@ -34,32 +34,32 @@ master's level:
     end: 2016
     name: Patrick Schratz
     title: A weather-radar based hail climatology of northern Spain
-    note: Secondary supervisor
+    note: Co-supervisor
 
   - start: 2011
     end: 2012
     name: Simon Hauenstein
     title: Einfluss des Bodens auf die Entwicklung der Vegetation von Nebelbergen (lomas) in verschiedenen H{\"o}henstufen, Nordperu
-    note: Informal co-advisor
+    note: Informal co-supervisor
 
   - start: 2010
     end: 2011
     name: Michael Schwinn
     title: GIS-gest{\"u}tzte Modellierung von Gefahrenzonen durch gravitative Massenbewegungen an den Verkehrswegen um Loja, S{\"u}decuador
-    note: Informal co-advisor
+    note: Informal co-supervisor
 
-undergraduate:
+Undergraduate:
   - start: 2017
     end: 2018
     name: Victor Schurade
     title: R{\"a}umliche Modellierung von Murg{\"a}ngen in den zentralchilenischen Anden - ein GIS-basierter Ansatz
-    note: Zweitgutachter
+    note: Co-supervisor
 
   - start: 2017
     end: 2017
     name: Dennis Kehl
     title: R{\"a}umliche Analyse von socal media Daten am Beispiel des Elbehochwassers 2013
-    note: Zweitgutachter
+    note: Co-supervisor
 
   - start: 2017
     end: 2017
@@ -85,19 +85,19 @@ undergraduate:
     end: 2016
     name: Theresa M{\"o}ller
     title: Analyse r{\"a}umlich-zeitlicher Muster in georeferenzierten Twitter-Daten
-    note: Zweitgutachter
+    note: Co-supervisor
 
   - start: 2016
     end: 2016
     name: Daphne Linn{\'{e}}a Meyrei{\ss}
     title: Nichtlineare Regressionsmodellierung landwirtschaftlicher Ertragsdaten im On-Farm Research
-    note: Zweitgutachter
+    note: Co-supervisor
 
   - start: 2016
     end: 2016
     name: Paul M{\"u}ller
     title: Entwicklung und Trends der Geoinformatik
-    note: Zweitgutachter
+    note: Co-supervisor
 
 #  - start: 2008
 #    end: 2008

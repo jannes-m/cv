@@ -1,8 +1,8 @@
 workshops:
   - year: 2018
     authors: "Muenchow, J."
-    title: Two lectures and computer practicals on R/GIS bridges and predictive ecological modeling with the help of machine learning
-    event: Geostat Summer School (invited)
+    title: Two lectures and computer lab classes on R/GIS bridges and predictive ecological modeling with the help of machine learning
+    event: Geostat Summer School (\textbf{invited})
     city: Prague, Czech Republic
     month: August
   - year: 2018
@@ -13,8 +13,8 @@ workshops:
     month: May
   - year: 2017
     authors: "Muenchow, J."
-    title: Three lectures and computer practicals on R/GIS bridges for statistical geocomputing
-    event: Geostat Summer School (invited)
+    title: Three lectures and computer lab classes on R/GIS bridges for statistical geocomputing
+    event: Geostat Summer School (\textbf{invited})
     city: Split, Croatia
     month: August
   - year: 2017
@@ -25,14 +25,14 @@ workshops:
     month: March
   - year: 2017
     authors: "Muenchow, J."
-    title: Four lectures and computer practicals on ecological modeling, R/GIS bridges and spatial autocorrelation
-    event: BioMove (invited)
+    title: Four lectures and computer lab classes on ecological modeling, R/GIS bridges and spatial autocorrelation
+    event: BioMove (\textbf{invited})
     city: Berlin, Germany
     month: November
   - year: 2016
     authors: "Muenchow, J."
     title: Introducci\'{o}n al uso y programaci\'{o}n del sistema estad\'{i}stica R
-    event: Workshop (invited)
+    event: Workshop (\textbf{invited})
     city: Piura, Peru
     month: April
   - year: 2012
@@ -44,6 +44,6 @@ workshops:
   - year: 2012
     authors: "Muenchow, J."
     title: GLMs \& GAMs in der {\"O}kologie
-    event: Workshop (invited)
+    event: Workshop (\textbf{invited})
     city: L{\"u}neburg, Germany
     month: July
