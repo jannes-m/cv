@@ -19,14 +19,15 @@ publications:
 
 # Bibliographic categories can be found and adjusted in dl-vita.sty
     subpapers:
+     - muenchow_same_2018
      - muenchow_reviewing_2018
-     - manzanos_mating_2018
      - schratz_performance_2018
 
     curpapers:
     - lovelace_geocomputation_2018
 
     papers:
+    - manzanos_mating_2018
     - muenchow_review_2018
     - muenchow_rqgis_2017
     - brenning_landslide_2015
