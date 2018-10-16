@@ -1,0 +1,16 @@
+posts:
+  - employer: Lehrstuhl f{\"u}r Geoinformatik, Friedrich-Schiller Universtit{\"a}t Jena
+    roles:
+      - start: 2016
+        end: heute
+        title: Wissenschaftlicher Mitarbeiter (Postdoc)
+  - employer: GfK Geomarketing, N{\"u}rnberg
+    roles:
+      - start: 2013
+        end: 2015
+        title: Geographic data scientist. \linebreak Market Data \& Research, Team Geostatistics
+  - employer: Institut f{\"u}r Geographie, Universit{\"a}t Erlangen-N{\"u}rnberg
+    roles:
+      - start: 2010
+        end: 2013
+        title: Doktorarbeit zum Einfluss von ENSO auf aride {\"O}kosysteme im NW Perus
