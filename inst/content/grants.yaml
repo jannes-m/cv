@@ -1,11 +1,11 @@
 grants:
   - start: 2019
-    end: 2022
-    title: "OPEN-BIOGUARD - Climate change pressures on tropical biodiversity and related economic impacts – an integrated vulnerability assessment supported by an open data platform"
-    funder: ERANET-LAC
-    role: PI (with partners from Spain, Poland, Ecuador and Peru)
-    value: "€447,431 (own share: €120,000)"
-    note: Submitted in March 2018. Decision due in September 2018
+    end: 2019
+    title: "International Summer School on Geospatial Analysis and Modelling using R"
+    funder: DAAD
+    role: "Submitted in September 2018. Co-author"
+    value: "€20,000"
+    note: ""
   - start: 2017
     end: 2018
     title: Monitoring of the highly endangered and unique ecosystems of northern Peru in times of increased climatic variability due to climate change and El Ni{\~n}o
@@ -22,14 +22,14 @@ grants:
     end: 2013
     title: Extreme thunderstorms as cause for catastropic mass movemens in Chiapas, Mexico
     funder: DFG (Sachbeihilfe)
-    role: co-author
+    role: Co-author
     value: "€6,780 (own share: €1,500)"
   - start: 2007
     end: 2008
     title: Student exchange
     funder: German Federal Training Assistance Act for Foreign Studies
     value: "€12,500"
-    role: stipend
+    role: Stipend
 
 
 
