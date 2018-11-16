@@ -31,7 +31,9 @@ process_yaml <- function(section, inp, out, format = "tex") {
     message(paste("processing yaml file ", inp))
     data <- yaml::yaml.load_file(inp)
     # mhh, couldn't we write a general format_...-function?
-    f <- paste0("format_", section)
+
+    # make sure that something like format_workshops_short also works
+    f <- paste0("format_", gsub("_.*", "", section))
     lines <- eval(call(f, data))
     # delete previous versions, if necessary
     if (file.exists(out)) {
@@ -81,9 +83,14 @@ format_address <- function(address) {
 #' @param style Path to the latex style you wish to apply.
 #' @param out The directory where your output should be stored (without trailing
 #'   forward or back slash).
+#' @param pub_score If TRUE, the publications section will start with an
+#'   overview of the current publication record including number of
+#'   publications, h- and h10-factor. For more information, see
+#'   [get_pub_record].
 #' @param clean If \code{TRUE}, all files but the output pdf will be deleted
 #'   from the output directory.
-build_cv <- function(content, style, out = NULL, clean = TRUE) {
+build_cv <- function(content, style, out = NULL, pub_score = TRUE,
+                     clean = TRUE) {
   # create the output directory, if necessary
   if (is.null(out)) {
     out <- getwd()
@@ -145,11 +152,20 @@ build_cv <- function(content, style, out = NULL, clean = TRUE) {
   })
   sections <- unlist(sections)
   ind = grep("begin\\{publications", sections)
-  insert =
-    paste0("So far, I have published 10 peer-reviewed journal articles which ",
-           "were cited 77 times (54 times excluding self-citations) according ",
-           "to the Web of Science and 117 times when consulting Google ",
-           "Scholar. The h-index is 6.\\linebreak\\linebreak")
+
+  insert = ""
+  if (pub_score) {
+    rec = get_pub_record()
+    insert =
+      paste0("So far, I have published ", rec$n_journal,
+            " peer-reviewed journal articles which ",
+            "were cited ", rec$wos_tc, " times (", rec$wos_tc_wsc,
+            " times excluding self-citations) according ",
+            "to the Web of Science and ", rec$total_cites,
+            " times when consulting Google Scholar. The h-index is ",
+            rec$h_index, ".\\linebreak\\linebreak")
+  }
+
   sections = c(sections[1:ind],
                insert,
                sections[(ind + 1):length(sections)])
