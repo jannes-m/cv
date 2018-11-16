@@ -1,12 +1,9 @@
 # generate CV
 devtools::load_all()
 
-# content = "D:/programming/R/cv/inst/content/muenchow_full_vita.yaml"
-content = system.file("content/muenchow_full_vita.yaml", package = "vita")
-# content =  system.file("content/muenchow_vita_en.yaml", package = "vita")
-# content = "D:/programming/R/cv/inst/content/muenchow_vita_en.yaml"
+content = "inst/content/muenchow_full_vita.yaml"
 style = system.file("style/dl-vita.sty", package = "vita")
 out = "pdf/"
-build_cv(content, style, out, clean = TRUE)
+build_cv(content, style, out, pub_score = TRUE, clean = TRUE)
 
 
