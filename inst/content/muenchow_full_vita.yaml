@@ -24,7 +24,7 @@ publications:
      - schratz_performance_2018
 
     curpapers:
-    - lovelace_geocomputation_2018
+    - lovelace_geocomputation_2019
 
     papers:
     - manzanos_mating_2018
@@ -39,16 +39,18 @@ publications:
     - peters_ecological_2014
     - rollenbeck_climatic_2015
 
+    chapters:
+    - schaefer_qualitative_2018
+
     monographs:
     - muenchow_vegetation_2013
     - muenchow_gravitative_2009
 
-    chapters:
-    - schaefer_qualitative_2018
-
     software:
       - muenchow_rqgis_2018
       - brenning_rsaga_2018
+      - brenning_rpygeo_2018
+      - tennekes_tmap_2018
 
 sections:
   - title: Employment
@@ -59,19 +61,19 @@ sections:
     file: visits.yaml
   - title: Grants
     file: grants.yaml
+  - title: Service
+    file: service.yaml
 #  - title: Awards
 #    file: awards.yaml
   - title: Teaching
     file: teaching.yaml
-  - title: Workshops
-    file: workshops.yaml
-  - title: Service
-    file: service.yaml
   - title: Supervision
     file: students.yaml
 #  - title: Affiliations
 #    file: affiliations.yaml
   - title:
     file: BIBTEX
+  - title: Workshops
+    file: workshops.yaml
   - title: Talks and posters
     file: talks.yaml
