@@ -4,7 +4,8 @@
 \alias{build_cv}
 \title{Build a CV using latex}
 \usage{
-build_cv(content, style, out = NULL, pub_score = TRUE, clean = TRUE)
+build_cv(content, style, out = NULL, pub_score = TRUE, clean = TRUE,
+  ...)
 }
 \arguments{
 \item{content}{Path to a YAML file which contains all your personal
@@ -22,6 +23,8 @@ publications, h- and h10-factor. For more information, see
 
 \item{clean}{If \code{TRUE}, all files but the output pdf will be deleted
 from the output directory.}
+
+\item{...}{triple dot, here mainly used for the sid parameter of [get_pub_record()]}
 }
 \description{
 Build a CV using latex

@@ -4,7 +4,12 @@
 \alias{get_pub_record}
 \title{Get Jannes publication record}
 \usage{
-get_pub_record()
+get_pub_record(sid)
+}
+\arguments{
+\item{sid}{Provide manually a SID until you have found a better solution,
+i.e. you have to go to the WOS and look for AU=muenchow,j and then copy the
+SID from the resulting page, grrrrr}
 }
 \value{
 A list containing Jannes publication record
