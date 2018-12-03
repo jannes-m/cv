@@ -87,10 +87,11 @@ format_address <- function(address) {
 #'   overview of the current publication record including number of
 #'   publications, h- and h10-factor. For more information, see
 #'   [get_pub_record].
+#' @param ... triple dot, here mainly used for the sid parameter of [get_pub_record()]
 #' @param clean If \code{TRUE}, all files but the output pdf will be deleted
 #'   from the output directory.
 build_cv <- function(content, style, out = NULL, pub_score = TRUE,
-                     clean = TRUE) {
+                     clean = TRUE, ...) {
   # create the output directory, if necessary
   if (is.null(out)) {
     out <- getwd()
@@ -155,7 +156,7 @@ build_cv <- function(content, style, out = NULL, pub_score = TRUE,
 
   insert = ""
   if (pub_score) {
-    rec = get_pub_record()
+    rec = get_pub_record(...)
     insert =
       paste0("So far, I have published ", rec$n_journal,
             " peer-reviewed journal articles which ",
