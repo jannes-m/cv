@@ -18,13 +18,18 @@ publications:
   sections:
 
 # Bibliographic categories can be found and adjusted in dl-vita.sty
-    subpapers:
+
+    curpapers:
+     - fremout_dry_2019
      - jentsch_enso_2019
      - muenchow_same_2019
+
+    subpapers:
+     - schaefer_spatial_2019
      - muenchow_reviewing_2019
      - schratz_performance_2018
 
-    curpapers:
+    inpress:
     - lovelace_geocomputation_2019
 
     papers:
