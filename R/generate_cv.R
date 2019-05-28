@@ -178,7 +178,7 @@ build_cv <- function(content, style, out = NULL, pub_score = TRUE,
              sprintf("\\usepackage{%s}",
                      tools::file_path_sans_ext(basename(style))),
              "",
-             sprintf("\\makeauthorbold{%s}", config$person$last_name),
+             # sprintf("\\makeauthorbold{%s}", config$person$last_name),
              "",
              section_break("Personal information"),
              header,
@@ -198,15 +198,17 @@ build_cv <- function(content, style, out = NULL, pub_score = TRUE,
 
   message(sprintf("Copying source files to '%s'...", out), appendLF = FALSE)
   ## Copy in the bib file and package
-  files <- list.files(path = c(dirname(style),
+  files = list.files(path = c(dirname(style),
                                dirname(content)),
                       full.names = TRUE)
 
-  sapply(files, function(x) {
-             file.copy(x,
-                   to = file.path(out, basename(x)),
-                   overwrite = TRUE, copy.mode = TRUE)
-  })
+  file.copy(files, to = out, overwrite = TRUE, copy.mode = TRUE)
+  # make author bold
+  bib = grep(".bib$", dir(out, full.names = TRUE), value = TRUE)
+  make_bold(bib = bib,
+            output = bib)
+  # replace colon in posts, we need to escape a colon in yaml files with ''
+  replace_colon(file.path(out, "posts.tex"))
 
   # create the tex file in the right place
   outfile <- paste0(c(tools::file_path_sans_ext(basename(content)), ".", "tex"),
@@ -509,3 +511,19 @@ format_computing <- function(l) {
   })
   lines
 }
+
+make_bold = function(bib,
+                     pattern = "(Muenchow, Jannes)|(Muenchow, J.)",
+                     bold = "\\\\textbf{Muenchow, J.}",
+                     output) {
+  ll = readLines(bib)
+  ll = gsub(pattern, bold, ll)
+  writeLines(ll, output)
+}
+
+replace_colon = function(tex_file) {
+  ll = readLines(tex_file)
+  ll = gsub("':'", ":", ll)
+  writeLines(text = ll, con = tex_file)
+}
+
