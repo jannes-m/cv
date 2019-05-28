@@ -1,0 +1,87 @@
+grants:
+  - start: 2019
+    end: 2019
+    title: "The ecological impact of ENSO anomalies on a pantropical scale"
+    funder: Michael-Stifel-Grant of the MichaelStifelCenterJena
+    role: "PI"
+    value: "€20,000"
+    note: ""
+  - start: 2019
+    end: 2019
+    title: "International Summer School on Geospatial Analysis and Modelling using R"
+    funder: DAAD
+    role: "Co-author"
+    value: "€20,000"
+    note: ""
+  - start: 2017
+    end: 2018
+    title: Monitoring of the highly endangered and unique ecosystems of northern Peru in times of increased climatic variability due to climate change and El Ni{\~n}o
+    funder: FSU programme to support junior researchers in obtaining third-party funding
+    role: PI
+    value: "€8,878"
+  - start: 2016
+    end: 2017
+    title: Employment funds
+    funder: FSU Jena, Department of GIScience
+    role: PI
+    value: "€7,500"
+  - start: 2011
+    end: 2013
+    title: Extreme thunderstorms as cause for catastropic mass movemens in Chiapas, Mexico
+    funder: DFG (Sachbeihilfe)
+    role: Co-author
+    value: "€6,780 (own share: €1,500)"
+  - start: 2007
+    end: 2008
+    title: Student exchange
+    funder: German Federal Training Assistance Act for Foreign Studies
+    value: "€12,500"
+    role: Stipend
+
+
+
+#  - start: 2016
+#    end: 2019
+#    title: "Global	Sustainable	Bioenergy	Initiative: Geospatial	&	environmental	analysis of pastureland	intensification	for bioenergy"
+#    funder: "FAPESP (Fundac\~{a}o de Amparo \`{a} Pesquisa do Estado de S\~{a}o Paulo)"
+#    role: Co-PI
+#    value: "$200k"
+#  - start: 2015
+#    end: 2019
+#    title: A Reference Phenotyping System for Energy Sorghum
+#    funder: "U.S. Department of Energy: Advanced Research Projects Agency - Energy (ARPA-E)"
+#    role: Co-PI
+#    value: '$1.7$m of $8.4$m' #$8,421,417
+#  - start: 2015
+#    end: 2017
+#    title: TERRA-MEPP (Mobile Energy-crop Phenotyping Platform)
+#    funder: "U.S. Department of Energy: Advanced Research Projects Agency - Energy (ARPA-E)"
+#    role: Co-PI
+#    value: "131k of 3.4m" #"$\131,906 of \$3,444,962"
+#  - start: 2015
+#    end: 2019
+#    title: "The PEcAn Project: A Community Platform for Ecological Forecasting"
+#    role: Co-Investigator
+#    funder: "NSF Division of Biological Infrastructure Award 1458021"
+#  - start: 2012
+#    end: 2015
+#    title: Feedstock and Ecosystem Service Modeling Program
+#    role: Lead author and research manager  #with Stephen Long (PI), Evan DeLucia, and Carl Bernacchi
+#    funder: Energy Biosciences Institute
+#    value: \$2,460,000
+#  - start: 2011
+#    end: 2014
+#    title: Model-data synthesis and forecasting across the upper Midwest; Partitioning uncertainty and environmental heterogeneity in ecosystem carbon.
+#    funder: NSF Advances in Bioinformatics Infrastructure
+#    role: Co-author
+
+#\textit{Grassland Carbon Dynamics along Nitrogen and Depth Gradients}  \years{2005-2007}\\
+#Kearney Soil Science Foundation Graduate Student Fellowship: \$34,000 \\
+
+#\textit{Decomposition responses to nitrogen in a California grassland} \years{2006}\\
+#NRS Mildred E. Mathias Graduate Student Research Grant Program: \$1,000  \\
+
+#\textit{Graduate Fellowship} \years{2004-2005}\\
+#UCI Department of Earth System Science: \$32,000\\
+
+#\textit{Establishment of a landscaped mushroom garden}  \years{1998} \\ Duke University Benenson Award in the Arts: \$1,500
