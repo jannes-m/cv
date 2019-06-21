@@ -1,5 +1,11 @@
 workshops:
   - year: 2019
+    authors: "Muenchow, J."
+    title: "Organizer of the summer school"
+    event: DAAD-funded international summer school on geospatial data science with R
+    city: Jena, Germany
+    month: August
+  - year: 2019
     authors: "Muenchow, J., Lovelace, R."
     title: Short course on "Geocomputation with R"
     event: EGU
