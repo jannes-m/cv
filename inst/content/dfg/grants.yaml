@@ -1,9 +1,16 @@
 grants:
   - start: 2019
     end: 2019
+    title: "The ecological impact of ENSO anomalies on a pantropical scale"
+    funder: Michael-Stifel-Grant of the MichaelStifelCenterJena
+    role: "PI"
+    value: "€5,000"
+    note: ""
+  - start: 2019
+    end: 2019
     title: "International Summer School on Geospatial Analysis and Modelling using R"
     funder: DAAD
-    role: "Submitted in September 2018. Co-author"
+    role: "Co-author"
     value: "€20,000"
     note: ""
   - start: 2017
