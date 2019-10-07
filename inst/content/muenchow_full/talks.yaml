@@ -1,4 +1,10 @@
 talks:
+  - year: 2019
+    authors: Scshratz, P., Muenchow, J., Iturrixta, E., Cortés, J., Bischl, B., Brenning, A.
+    title: "Supporting Ecological Decision Making Using Feature-Selection and Variable Importance"
+    event: ISEM
+    city: Vienna, Austria
+    month: September
   - year: 2018
     authors: Muenchow, J.
     title: "Applied Geocomputation"
