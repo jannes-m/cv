@@ -1,5 +1,17 @@
 workshops:
   - year: 2019
+    authors: "Muenchow, J."
+    title: "An introduction to RQGIS3"
+    event: "OpenGeoHub 2019"
+    city: Münster, Germany
+    month: September
+  - year: 2019
+    authors: "Muenchow, J."
+    title: Six lectures and computer lab classes on statistical modeling, R/GIS bridges and spatial autocorrelation
+    event: DAAD Funded International Summer School on Geospatial Data Science with R (\textbf{event organizer})
+    city: Jena, Germany
+    month: August
+  - year: 2019
     authors: "Muenchow, J., Lovelace, R."
     title: Short course on "Geocomputation with R"
     event: EGU
