@@ -1,13 +1,13 @@
 language:
   - language: Operating systems
     roles:
-      - title: Linux (especially Antergos Arch and Ubuntu), Windows
+      - title: Linux (especially Antergos Arch, Ubuntu, Debian), Windows
   - language: Geoprocessing
     roles:
-      - title: QGIS, SAGA GIS, GRASS GIS, GDAL, GEOS, PROJ.4, PostGIS, leaflet, ESRI (among others)
-  - language: Programming languages
+      - title: QGIS, SAGA GIS, GRASS GIS, GDAL, GEOS, PROJ, PostGIS, leaflet, ESRI (among others)
+  - language: Programming languages and tools
     roles:
-      - title: R (very advanced), Git, Python (medium), SAS (medium), Javascript (basics)
+      - title: R (very advanced), Python (medium), Git, Docker, SAS (medium), Javascript (basics)
   - language: Big data technologies
     roles:
       - title: Hive SQL, Hadoop, MongoDB, cloud computing on Linux servers
