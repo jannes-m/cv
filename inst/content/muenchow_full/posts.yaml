@@ -1,8 +1,22 @@
 posts:
+  - employer: GfK Geomarketing, Nuremberg
+    roles:
+      - start: 2019
+        end: present
+        title: Senior data scientist. \linebreak Market Data \& Research, Team Geostatistics. \linebreak
+          \begin{quote}
+          \begin{enumerate}
+            \item Automization and optimization of work processes through the development of internal R packages.
+            \item Conception and development of new products.
+            \item Machine learning solutions.
+            \item Docker, Linux
+            \item reproducible research
+          \end{enumerate}
+          \end{quote}
   - employer: GIScience department, University of Jena
     roles:
       - start: 2016
-        end: present
+        end: 2019
         title: Postdoctoral research and teaching associate. \linebreak
           My work strongly focuses on the quantitative analysis of geo-ecosystems, (tropical) ecology and automatized statistical geocomputing':'
           \begin{quote}
