@@ -185,6 +185,10 @@ build_cv <- function(content, style, out = NULL, pub_score = TRUE,
              bibinfo,
              "",
              "\\begin{document}",
+             # we need to add all citations again. In fact, in dl-vita.sty the
+             # nocite command is already executed and it has worked before but
+             # now no longer and we need to add the command here again
+             "\\nocite{*}",
              "\\maketitle",
              "",
              "born in Dresden, Germany, on 09/29/1981.",
